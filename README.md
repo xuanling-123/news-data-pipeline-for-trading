@@ -43,7 +43,7 @@ news-data-for-trading/
 
 The pipeline generates comprehensive analytics visualizations including:
 
-![News Data Summary Dashboard](<img width="1583" height="736" alt="image" src="https://github.com/user-attachments/assets/e2cb2d37-f6cc-4819-b89e-1dd35da12483" />)
+(<img width="1583" height="736" alt="image" src="https://github.com/user-attachments/assets/e2cb2d37-f6cc-4819-b89e-1dd35da12483" />)
 
 ### Key Metrics Displayed:
 - **Total Articles Today**: Real-time article volume tracking (2.25K articles)
