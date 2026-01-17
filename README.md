@@ -1,2 +1,50 @@
 # news-data-pipeline-for-trading
 End-to-end news data pipeline leveraging PySpark and Databricks for extracting, transforming, and analyzing financial news to generate trading insights and sentiment signals
+
+## Project Overview
+This project implements a comprehensive news data pipeline for trading analysis using Databricks. The pipeline extracts news articles from multiple sources, transforms the data for analysis, and aggregates insights to support trading decisions.
+
+## Architecture
+The pipeline follows a modular ETL (Extract, Transform, Load) architecture with four main components:
+
+news-data-for-trading/
+├── 1-setup/
+│   └── 1-setup.py              # Environment setup and configuration
+├── 2-extractor/
+│   └── news_extractor.py       # News data extraction from sources
+├── 3-transformer/
+│   └── news_transformer.py     # Data transformation and cleaning
+└── 4-Aggregation/
+    └── news_aggregator.py      # Data aggregation and analysis
+
+## Components
+1. Setup (1-setup/1-setup.py)
+  - Initializes the Databricks environment
+  - Configures necessary libraries and dependencies
+  - Sets up database connections and storage locations
+2. Extractor (2-extractor/news_extractor.py)
+  - Extracts news articles from configured sources
+  - Handles API authentication and rate limiting
+  - Stores raw news data in structured format
+3. Transformer (3-transformer/news_transformer.py)
+  - Cleans and normalizes extracted news data
+  - Performs text processing and sentiment analysis
+  - Structures data for downstream analysis
+4. Aggregator (4-Aggregation/news_aggregator.py)
+  - Aggregates transformed data by various dimensions
+  - Generates trading signals and insights
+  - Produces summary statistics and reports
+
+## Features
+- Multi-source Integration: Extract news from various financial news APIs
+- Real-time Processing: Process news data as it becomes available
+- Sentiment Analysis: Analyze news sentiment for trading signals
+- Scalable Architecture: Built on Databricks for handling large volumes
+- Modular Design: Easy to extend with additional sources or transformations
+
+## Use Cases
+- Trading Signal Generation: Identify news-driven trading opportunities
+- Market Sentiment Analysis: Track overall market sentiment trends
+- Risk Management: Monitor news for potential market-moving events
+- Research & Backtesting: Historical news data for strategy development
+
