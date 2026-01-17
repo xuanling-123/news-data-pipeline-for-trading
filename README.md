@@ -1,5 +1,7 @@
 # news-data-pipeline-for-trading
-End-to-end news data pipeline leveraging PySpark and Databricks for extracting, transforming, and analyzing financial news to generate trading insights and sentiment signals
+
+## The Value of Unstructured News Data
+In algorithmic trading, unstructured news data provides a crucial edge that structured market data alone cannot deliver. News articles contain forward-looking information about corporate events, economic shifts, and market sentiment that precede price movements. This pipeline transforms unstructured text into actionable trading signals through sentiment analysis and entity extraction, enabling systematic strategies to incorporate the same news-driven insights that fundamental analysts use manually. The ability to process thousands of news sources in real-time creates opportunities for event-driven trading, risk management, and alpha generation.
 
 ## Project Overview
 This project implements a comprehensive news data pipeline for trading analysis using Databricks. The pipeline extracts news articles from multiple sources, transforms the data for analysis, and aggregates insights to support trading decisions.
@@ -7,6 +9,7 @@ This project implements a comprehensive news data pipeline for trading analysis 
 ## Architecture
 The pipeline follows a modular ETL (Extract, Transform, Load) architecture with four main components:
 
+```
 news-data-for-trading/
 ├── 1-setup/
 │   └── 1-setup.py              # Environment setup and configuration
@@ -16,6 +19,7 @@ news-data-for-trading/
 │   └── news_transformer.py     # Data transformation and cleaning
 └── 4-Aggregation/
     └── news_aggregator.py      # Data aggregation and analysis
+```
 
 ## Components
 1. Setup (1-setup/1-setup.py)
