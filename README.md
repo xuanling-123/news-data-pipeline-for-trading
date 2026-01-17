@@ -39,6 +39,23 @@ news-data-for-trading/
   - Generates trading signals and insights
   - Produces summary statistics and reports
 
+## Analytics Dashboard
+
+The pipeline generates comprehensive analytics visualizations including:
+
+![News Data Summary Dashboard](<img width="1583" height="736" alt="image" src="https://github.com/user-attachments/assets/e2cb2d37-f6cc-4819-b89e-1dd35da12483" />)
+
+### Key Metrics Displayed:
+- **Total Articles Today**: Real-time article volume tracking (2.25K articles)
+- **Average Sentiment**: Market sentiment scoring across all sources (0.08)
+- **High Impact Alerts**: Automated detection of market-moving news events
+- **Sentiment Over Time**: Trend analysis for Bitcoin, Gold, and Silver
+- **Commodity Analysis**: Article distribution and sentiment by commodity
+- **Recent Headlines**: Live feed of analyzed articles with sentiment classification
+
+> **⚠️ Note on Data Availability**  
+> This project currently uses the free tier of NewsAPI, which limits API requests per day
+
 ## Features
 - Multi-source Integration: Extract news from various financial news APIs
 - Real-time Processing: Process news data as it becomes available
